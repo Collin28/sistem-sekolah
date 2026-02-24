@@ -39,8 +39,9 @@ class Router
                 $controller = new $controllerClass();
 
                 $function = $route['function'];
-                $controller->$function();
+                call_user_func_array([$controller, $function], $matches);
 
+            
                 return;
             }
         }
