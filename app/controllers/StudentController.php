@@ -16,10 +16,14 @@ class StudentController
 
     public function show(string $id)
     {
-        echo '<h1>Detail siswa</h1>';
-        echo "<p>Menampilkan form detail siswa dengan id: {$id}</p>";
+        require_once '../app/views/students/show.php';
     }
 
+    public function edit(string $id)
+    {
+        require_once '../app/views/students/edit.php';
+    }
+    
 }
 
 ?>
