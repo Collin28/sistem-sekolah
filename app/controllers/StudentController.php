@@ -7,7 +7,7 @@ use App\Core\Controller;
 class StudentController extends Controller
 {
 
-    public function index(): void
+    public function index():void
     {
         $this->view('students.index');
     }
