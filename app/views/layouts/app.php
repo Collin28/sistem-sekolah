@@ -10,7 +10,7 @@
 
 <body class="min-h-screen flex flex-col bg-gray-100">
     <!-- Header Start -->
-    <?php require_once '../app/views/layout/partials/haeder.php'?>
+    <?php require_once '../app/views/layouts/partials/header.php'?>
     <!-- Header End -->
 
     <!-- Main Start -->
@@ -19,7 +19,7 @@
     </main>
 
     <!-- Footer Start -->
-    <?php require_once '../app/views/layout/partials/haeder.php'?>
+    <?php require_once '../app/views/layouts/partials/footer.php'?>
     <!-- Footer End -->
 </body>
 
