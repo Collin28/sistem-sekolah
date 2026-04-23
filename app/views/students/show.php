@@ -23,7 +23,7 @@
                 <label class="block font-bold" for="class">Kelas</label>
                 <input value="<?= $student['class']?>" class="w-full px-4 py-2 border rounded-lg" type="text" id="class" placeholder="Masukkan kelas"
                     name="class" readonly>
-            </div>T
+            </div>
             <div class="space-y-2">
                 <label class="block font-bold" for="phone_number">No Telepon</label>
                 <input value="<?= $student['phone_number']?>" class="w-full px-4 py-2 border rounded-lg" type="text" id="phone_number"
